@@ -1,0 +1,27 @@
+.left-side {
+    min-height: 100vh;
+    width: 25%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+.right-side {
+    width: 75%;
+    min-height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+}
+ul {
+    padding: 0;
+    text-align: center;
+}
+ul li {
+    margin: 20px 0;
+    list-style: none;
+}
+a {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+link  {
+    color: white;
+}

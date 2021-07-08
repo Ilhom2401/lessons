@@ -1,0 +1,48 @@
+main {
+    background-color: #D7E6E9;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.status {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: #0D3C3F;
+}
+.container1 {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #174C57;
+    background-color: #91BBC4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    width: 452px;
+    height: 452px;
+    background-color: #91BBC4;
+    border: 1px solid #174C57;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #174C57;
+    box-sizing: border-box;
+    background-color: #9CD8E4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    font-family: 'Architects Daughter', cursive;
+    overflow: hidden;
+}
